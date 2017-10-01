@@ -11,19 +11,19 @@ var App = React.createClass({
     return {
       articles: {
         'article': {
-          "color": "FEC006",
-          "title": "Snow in Turkey Brings Travel Woes",
-          "thumbnail": "",
-          "category": "News",
-          "excerpt": "Heavy snowstorm in Turkey creates havoc as hundreds of villages left without power, and hundreds of roads closed",
+          "color": "e8d89b",
+          "title": "EKHebdo N°2",
+          "thumbnail": "https://gitacrown.github.io/EKHebdo/numero/24sep.html",
+          "category": "Hebdo",
+          "excerpt": "Deuxième numéro de l'Hebdo Entre Kheys avec au menu : La fic de Chedfa, des bots et des problèmes.",
           "date": new Date()
         },
         'article-1': {
-          "color": "2196F3",
-          "title": "Landslide Leaving Thousands Homeless",
+          "color": "e8d89b",
+          "title": "EKHebdo N°1",
           "thumbnail": "",
-          "category": "News",
-          "excerpt": "An aburt landslide in the Silcon Valley has left thousands homeless and on the streets.",
+          "category": "Hebdo",
+          "excerpt": "Premier numéro de l'Hebdo Entre Kheys ! On va parler des changements sur Discord...",
           "date": new Date()
         },
         'article-2': {
