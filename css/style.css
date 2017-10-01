@@ -78,7 +78,6 @@ a:hover {
   -moz-border-radius: 3px;
   border-radius: 3px;
   display: block;
-  min-height: 240px;
   overflow: hidden;
   position: relative;
 }
@@ -97,7 +96,7 @@ a:hover {
   -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
   -o-transform: scale(1.2);
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .card__title {
@@ -107,7 +106,7 @@ a:hover {
   font-size: 1.5em;
   font-weight: 700;
   line-height: 1.2;
-  margin-bottom: 0.75em;
+  margin-bottom: 0.1em;
   text-decoration: none;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
