@@ -19,6 +19,8 @@ body {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
+  color:white;
+  background-color:rgb(24, 24, 25);
 }
 
 h1 {
