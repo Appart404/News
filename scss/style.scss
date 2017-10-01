@@ -1,0 +1,85 @@
+@import "compass/css3";
+
+$articles: 9;
+$hue: random(210);
+
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400);
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Source Code Pro', sans-serif;
+  overflow-x: hidden;
+}
+
+nav {
+  white-space: nowrap;
+}
+
+article {
+  position: relative;
+  animation: slide-in .5s backwards;
+  @for $i from 1 through $articles {
+    &:nth-child(#{$i}) {
+      animation-delay: ($i / 5)+s;
+      h2 {
+        background:hsl($hue + $i * 11 ,85%,70%);
+        color:hsl($hue +  $i * 11 ,45%,55%);
+      }
+    }
+  }
+  h2 {
+    display: inline-block;
+    box-shadow: -1px 1px, -2px 2px, -3px 3px, -4px 4px, -5px 5px, -6px 6px, -7px 7px, -8px 8px, -9px 9px, -10px 10px;
+    font-weight: 300;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding-left: 10%;
+    padding-right: 1em;
+    margin-left: -5px;
+    transition: .4s;
+    a {
+      padding: 1em 0;
+      display: inline-block;
+      color: #222222;
+      text-decoration: none;
+    }
+    &:hover {
+      box-shadow: -1px 1px, -2px 2px, -3px 3px, -4px 4px, -5px 5px, -6px 6px, -7px 7px, -8px 8px, -9px 9px, -10px 10px, -11px 11px, -12px 12px, -13px 13px, -14px 14px, -15px 15px;
+      transform: translate3d(5px, -5px, 0);
+      transition: .15s;
+    }
+    &:active {
+      box-shadow: -1px 1px, -2px 2px, -3px 3px, -4px 4px, -5px 5px, -6px 6px, -7px 7px, -8px 8px, -9px 9px, -10px 10px;
+      transform: translate3d(0px, 0px, 0);
+      transition: .15s;
+    }
+  }
+  h3 {
+    display: inline-block;
+    color: #555555;
+    font-style: italic;
+    font-size: 0.8em;
+    margin-left: 15px;
+    .category {
+      border: 2px solid #555;
+      padding: 5px;
+      border-radius: 15px;
+    }
+  }
+}
+
+@keyframes slide-in {
+  from { 
+    transform: translate3d(-100%, 0, 0);
+  }
+}
