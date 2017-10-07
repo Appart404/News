@@ -1,0 +1,84 @@
+<html><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>News | Stickers & co.+</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <article class="article">
+  <header class="header">
+    <div class="category">Bot</div>
+    <h1 class="headline">Stickers & co.</h1>
+    <div class="meta">
+      <span class="author">par <span class="author-name">Acrown</span></span>
+      <span class="pub-date">Posté le 8 Oct. 2017</span>
+    </div>
+  </header>
+
+  <p>Vous ne l'avez surement pas remarqué, mais dans la nuit de samedi 7 à dimanche 8 nous sommes passés à la 4e génération de stickers (qui sera surement la dernière). Cette version vient apporter des trucs cools, dont certaines fonctions qui était demandées depuis très longtemps. Je vais vous lister les changements et vous expliquer un peu comment marche les nouveaux trucs. C'est parti !</p>
+  
+    <h2>Gestion des stickers</h2>
+    <p>Le fonctionnement à changé ! J'ai pris en compte vos suggestions et il en résulte ces changements:</p>
+    <h3>Ajouter</h3>
+    <p>Désormais pour ajouter un sticker vous devez faire "&stk add" suivi du nom de votre sticker et, optionnellement, l'URL. Pourquoi "optionnellement" ? Parce que désormais - il était temps - l'upload d'image est supporté. Plus besoin de passer par un hébergeur pour ajouter votre image favorite !</br>Comme lors de la 3e génération, les modérateurs peuvent ajouter directement le sticker alors que les membres hors-staff passent désormais par la case "Approbation"</br>En effet, à travers la commande "&stk approb" les modérateurs obtiendront une liste des stickers en attente et pourront, dans un système similaire à la génération précédente, accepter ou refuser vos stickers. Btw, il n'y a plus de durée de vie, votre demande reste tant qu'un modérateur ne l'a pas traitée.</p>
+    <h3>Editer</h3>
+    <p>Autre nouveauté assez peu intéressante pour vous mais pourtant très importante : les stickers ne sont plus stockés par leur nom. Désormais, chaque sticker s'est vu attribué un identifiant, ce qui veut dire qu'il est possible de modifier de A à Z leurs données désormais, y compris le nom (ce qui était impossible avant).</br>Pour l'occasion, c'est carrément une interface qui se présente pour pouvoir changer les données d'un sticker, ce qui rend l'opération facile pour ceux qui ne sont pas à l'aise avec les commandes de 2km. D'ailleurs, la fonction n'est plus qu'accessible par la modération maintenant...</p>
+    <h3>Supprimer</h3>
+    <p>Aucun changement, à part le fait qu'il devrait ne plus avoir de problèmes de corruptions d'anciens stickers...</p>
+    <h3>Importer</h3>
+    <p>Au cas où vous n'étiez pas au courant : Oui, les anciens stickers ne sont plus importable car ils ont été supprimés... définitivement. J'ai laissé une semaine suplémentaire pour en importer si besoin, mais désormais c'est terminé, l'import d'anciens stickers ne fonctionne plus.</p>
+    
+    <h2>Meme maker</h2>
+    <p>Les plus oldfags se rappelleront peut-être qu'il y a eu, à un moment, un "meme maker" qui a rapidement disparu à cause de problèmes de stockages... Et bien, je l'ai fais revenir avec une solution simple : les memes créés ne sont pas stockés. Si vous ne voulez pas les perdre, je vous conseille donc de les enregistrer !</br>Pour l'utilisation c'est assez simple, il suffit de faire "&meme" suivi d'abord de ce que vous voulez mettre au dessus, puis ce que vous voulez mettre en dessous. Comme pour "&stk add" la commande supporte l'upload direct de l'image aussi bien que les URL à condition qu'ils se terminent par l'extension du fichier (png, jpg...)</p>
+    
+    <h2>Paramètres</h2>
+    <p>Nouvelle fonctionnalité en plein développement : les paramètres. Keskecé ?</br>Eh bien, ce sont comme le nom l'indique des paramètres applicable aux stickers. Il y en a 4 qui sont w, u, b et ?. On les place après le premier ":" et un "/" qu'on place à l'intérieur du sticker avant son nom. Rien compris ? Je vais vous montrer un exemple pour chaque cas.</p>
+    <h3>w pour "web"</h3>
+    <p>Le premier paramètre est "w". Il permet d'indiquer au bot qu'il faut afficher le sticker en format web, c'est-à-dire en postant directement l'URL.</p>
+    <figure>
+    <img src="https://i.imgur.com/4Pa0VGu.png" alt="Exemple w">
+    <figcaption>Exemple avec le sticker :chedfa:</figcaption>
+   </figure>
+   
+   <h3>u pour "upload"</h3>
+    <p>Le second paramètre est "u". Il permet d'indiquer au bot qu'il faut afficher le sticker en format upload, en gros il upload directement l'image comme vous le feriez.</p>
+    <figure>
+    <img src="https://i.imgur.com/RzML89Z.png" alt="Exemple u">
+    <figcaption>Autre exemple avec le sticker :chedfa:</figcaption>
+   </figure>
+   
+   <h3>u pour "upload"</h3>
+    <p>Le troisième paramètre est "b". Il permet d'indiquer au bot qu'il faut afficher le sticker en format billet, c'est l'affichage que vous voyez se répendre sur le bot, avec la barre colorée sur la gauche. Celle-ci aura la couleur de votre pseudo...</p>
+    <figure>
+    <img src="https://i.imgur.com/6n2eMaL.png" alt="Exemple b">
+    <figcaption>Encore un autre exemple avec le :chedfa:</figcaption>
+   </figure>
+   
+   <h3>? pour "contenant"</h3>
+    <p>Ce quatrième et dernier paramètre permet d'indiquer au bot que vous voulez afficher un sticker au hasard parmi ceux contenant le terme que vous indiquez.</p>
+    <figure>
+    <img src="https://i.imgur.com/j621shN.png" alt="Exemple ?">
+    <figcaption>Le sticker généré est aléatoire parmi ceux contenant "chedfa"</figcaption>
+   </figure>
+   
+   <h3>La combinaison</h3>
+    <p>Vous l'aurez peut-être deviné, mais il est possible de combiner un paramètre d'affichage (w, u ou b) avec le paramètre d'alétoire "?"</p>
+    <figure>
+    <img src="https://i.imgur.com/iaQCmgC.png" alt="Exemple ?">
+    <figcaption>Note: il n'y a pas d'ordre précis entre les paramètres</figcaption>
+   </figure>
+    <p>Les paramètres viennent écraser temporairement les données par défaut du sticker. Dans l'exemple, :chedfa: est par défaut sur le format d'affichage "upload", mais faire :b/chedfa: va afficher ce sticker dans le format "billet" sans pour autant changer le fait que, sans paramètres, il s'affichera en "upload".</p>
+    
+    <h2>Pour les modos</h2>
+    <p>Des fonctionnalités arrivent pour la modération des stickers. En plus d'une nouvelle interface pour l'édition et l'approbation des stickers, il est désormais possible de bloquer l'utilisation de cette fonctionnalité avec "&stkmod stop" suivi du membre concerné.</p>
+    <h2>Et encore plus...</h2>
+    <p>Certaines fonctionnalités sont encore en test et arriveront prochainement, comme la possibilité de mettre jusqu'a 3 stickers personnalisés, d'affecter une réaction sur un message à un sticker, ou encore les statistiques des stickers afin de voir ceux qui sont les plus utilisés !<p>
+</article>
+</body></html>
