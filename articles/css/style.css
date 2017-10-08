@@ -147,7 +147,7 @@ figcaption {
 	height:60px;
 	bottom:40px;
 	right:40px;
-	background-color:#06C;
+	background-color:rgba(30, 30, 30, 0.76);
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
