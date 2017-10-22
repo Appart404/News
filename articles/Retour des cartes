@@ -1,0 +1,43 @@
+<html><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>News | Retour des cartes</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <article class="article">
+  <header class="header">
+    <div class="category">Bot</div>
+    <h1 class="headline">Retour des cartes</h1>
+    <div class="meta">
+      <span class="author">par <span class="author-name">Acrown</span></span>
+      <span class="pub-date">Posté le 23 Oct. 2017</span>
+    </div>
+  </header>
+
+  <p>Le système EGO étant définitivement mort et enterré par la dernière mise à jour de Discord apportant les catégories, son remplaçant arrive afin de compenser les fonctionnalités utiles d'EGO ayant sombrés avec lui. Un joli module tout neuf répondant au nom de Spring va venir reboucher les trous.</p>
+  
+    <h3>ID Spring</h3>
+    <p>En plus de l'ID provenant du Discord et lié à votre profil, il vous sera désormais attribué un second ID qui pourra être partagé entre plusieurs comptes d'une même personne en cas de secondaire. Il se caractérise par un double slash suivi de 4 caractères. Dans le futur il sera possible de bannir l'ensemble des comptes d'une même personne en même temps, rendant la gestion des secondaires plus facile.</p>
+    <h3>Barre de progression</h3>
+    <p>Dans la section "Ancienneté" se trouve désormais une barre de progression pour le prochain rôle honorifique de la hiérarchie du serveur (Random > Habitué > Oldfag). Posséder le rôle Oldfag (même si le rôle Habitué n'est pas possédé) résulte en l'affichage de "Rôle max." signifiant que vous avez atteint le rôle honorifique le plus haut (Malsain n'étant pas un rôle honorifique basé sur le nombre de jours). Note : Cette barre de progression se reset à chaque départ du serveur.</p>
+    <h3>Bio avancée</h3>
+    <p>Il est possible d'ajouter une description/bio dans la partie supérieure de votre carte à l'aide de la commande <strong>&spr bio</strong>. Cet espace supporte certaines fonctionnalités Markdown (gras, italique, souligné, barré, intégration de lien...) et les fonctionnalités Discord (mention de membre, de salon...). Note : mentionner un membre dans sa carte ne le mentionne pas réellement.</p>
+    <h3>Ce qui change mais qui est caché</h3>
+    <p>D'autres choses sont en cours de développement et non affiché avec par exemple un système d'XP (Activité sur le serveur), une intégration des succès de manière plus générale...</p>
+</article>
+<a href="https://entrekheysplus.github.io/News/" class="float">
+<i class="fa fa-envelope my-float"></i>
+</a>
+<div class="label-container">
+<div class="label-text">Menu</div>
+<i class="fa fa-play label-arrow"></i>
+</div>
+</body></html>
