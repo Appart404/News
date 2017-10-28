@@ -18,11 +18,11 @@
     <h1 class="headline">Stickers & co.</h1>
     <div class="meta">
       <span class="author">par <span class="author-name">Acrown</span></span>
-      <span class="pub-date">Posté le 8 Oct. 2017</span>
+      <span class="pub-date">Edité le 28 Oct. 2017</span>
     </div>
   </header>
 
-  <p>Vous ne l'avez surement pas remarqué, mais dans la nuit de samedi 7 à dimanche 8 nous sommes passés à la 4e génération de stickers (qui sera surement la dernière). Cette version vient apporter des trucs cools, dont certaines fonctions qui était demandées depuis très longtemps. Je vais vous lister les changements et vous expliquer un peu comment marche les nouveaux trucs. C'est parti !</p>
+  <p>Vous ne l'avez surement pas remarqué, mais dans la nuit de samedi 7 à dimanche 8 Octobre nous sommes passés à la 4e génération de stickers (qui sera surement la dernière). Cette version vient apporter des trucs cools, dont certaines fonctions qui était demandées depuis très longtemps. Je vais vous lister les changements et vous expliquer un peu comment marche les nouveaux trucs. C'est parti !</p>
   
     <h2>Gestion des stickers</h2>
     <p>Le fonctionnement à changé ! J'ai pris en compte vos suggestions et il en résulte ces changements:</p>
@@ -34,9 +34,15 @@
     <p>Aucun changement, à part le fait qu'il devrait ne plus avoir de problèmes de corruptions d'anciens stickers...</p>
     <h3>Importer</h3>
     <p>Au cas où vous n'étiez pas au courant : Oui, les anciens stickers ne sont plus importable car ils ont été supprimés... définitivement. J'ai laissé une semaine suplémentaire pour en importer si besoin, mais désormais c'est terminé, l'import d'anciens stickers ne fonctionne plus.</p>
-    
+    <h3>Approuver</h3>
+<p><strong>[Nouveau]</strong> Pour plus de simplicité, la commande à changé. Désormais, faire "&stk approb" vous renverra la liste des stickers en attente d'approbation, il faudra alors utiliser la même commande en précisant le nom du sticker à la fin afin de pouvoir réaliser une action dessus.</p>
+
     <h2>Meme maker</h2>
     <p>Les plus oldfags se rappelleront peut-être qu'il y a eu, à un moment, un "meme maker" qui a rapidement disparu à cause de problèmes de stockages... Et bien, je l'ai fais revenir avec une solution simple : les memes créés ne sont pas stockés. Si vous ne voulez pas les perdre, je vous conseille donc de les enregistrer !</br>Pour l'utilisation c'est assez simple, il suffit de faire "&meme" suivi d'abord de ce que vous voulez mettre au dessus, puis ce que vous voulez mettre en dessous. Comme pour "&stk add" la commande supporte l'upload direct de l'image aussi bien que les URL à condition qu'ils se terminent par l'extension du fichier (png, jpg...)</p>
+    <h2><strong>[Nouveau]</strong> Correction</h2>
+    <p>Désactivé complettement pour cette nouvelle version, la correction automatique des stickers erronés revient. Désormais cette option est personnalisable pour chaque utilisateur : c'est-à-dire que par défaut c'est désactivé, mais si vous désirez que les fautes que vous faîtes dans les stickers soient automatiquement corrigés, vous pouvez l'activer avec "&stk correct" suivi de la valeur de tolérance. La tolérance va de 0 à 3 (0 étant "Désactivé"), plus la valeur est haute plus la correction sera puissante. Cela signifie en revanche qu'il peut choisir le mauvais sticker si vous faîtes trop de fautes.</p>
+    <h2><strong>[Nouveau]</strong> Custom</h2>
+    <p>Retour du sticker custom ! Réglez-le avec "&stk custom" suivi de l'URL de l'image. Note : Cette commande ne supporte que l'URL et pas l'upload (en revanche, toutes les URL lui vont) sinon la mémoire du bot serait rapidement pleine avec toutes les images !</p>
     
     <h2>Paramètres</h2>
     <p>Nouvelle fonctionnalité en plein développement : les paramètres. Keskecé ?</br>Eh bien, ce sont comme le nom l'indique des paramètres applicable aux stickers. Il y en a 4 qui sont w, u, b et ?. On les place après le premier ":" et un "/" qu'on place à l'intérieur du sticker avant son nom. Rien compris ? Je vais vous montrer un exemple pour chaque cas.</p>
@@ -66,7 +72,10 @@
     <figure>
     <img src="https://i.imgur.com/j621shN.png" alt="Exemple ?">
     <figcaption>Le sticker généré est aléatoire parmi ceux contenant "chedfa"</figcaption>
-   </figure>
+    </figure>
+
+   <h3>s pour "supprimer" <strong>[Nouveau]</strong></h3>
+    <p>Ce paramètre vous permettra d'automatiquement et immédiatement effacer votre message lors de l'invocation d'un sticker</p>
    
    <h3>La combinaison</h3>
     <p>Vous l'aurez peut-être deviné, mais il est possible de combiner un paramètre d'affichage (w, u ou b) avec le paramètre d'alétoire "?"</p>
@@ -78,6 +87,7 @@
     
     <h2>Pour les modos</h2>
     <p>Des fonctionnalités arrivent pour la modération des stickers. En plus d'une nouvelle interface pour l'édition et l'approbation des stickers, il est désormais possible de bloquer l'utilisation de cette fonctionnalité avec "&stkmod stop" suivi du membre concerné.</p>
+<p><strong>[Nouveau]</strong> Il est désormais possible de bloquer à un utilisateur l'utilisation du son sticker custom avec &stkmod custom</p>
     <h2>Et encore plus...</h2>
     <p>Certaines fonctionnalités sont encore en test et arriveront prochainement, comme la possibilité de mettre jusqu'a 3 stickers personnalisés, d'affecter une réaction sur un message à un sticker, ou encore les statistiques des stickers afin de voir ceux qui sont les plus utilisés !<p>
 </article>
